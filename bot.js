@@ -120,15 +120,6 @@ client.on("message", message => {
          $bc ➼ رسالة جماعية
          $obc ➼ رسالة جماعية فقط للاونلاين
          $ebc ➼ رسالة جماعية ب امبيد
-         __Music Commands__
-         $play ➼ لتشغيل أغنية برآبط أو بأسم
-         $skip ➼ لتجآوز الأغنية الحآلية
-         $stop ➼ إيقآف الأغنية مؤقتا
-         $resume ➼ لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-         $vol ➼ لتغيير درجة الصوت 100 - 0
-         $leave ➼ لإخرآج البوت من الروم
-         $np ➼ لمعرفة الأغنية المشغلة حآليا
-         $queue ➼ لمعرفة قآئمة التشغيل
          ✧▬▬▬▬▬▬ BOT System ▬▬▬▬▬▬✧
        **  `)
    message.author.sendEmbed(embed)
@@ -767,7 +758,7 @@ client.on('message', async message => {
   }
 });
 client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find('name', 'Player'));  
+member.addRole(member.guild.roles.find('name', 'Gamers'));  
 });
 
 
