@@ -21,7 +21,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Code By : ZorexHost `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$help | System XPRO`,"http://twitch.tv/S-F")
+client.user.setGame(`$help | System Gamers`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 }); 
 
